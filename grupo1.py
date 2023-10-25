@@ -48,3 +48,15 @@ print(type(ahora)) # Tipo de variable
 print()
 ahora_formateo = ahora.strftime('%d/%m/%Y %H:%M:%S')
 print(ahora_formateo)
+
+#Ejercicio 4: Calcular el area de un circulo pidiendo el radio al usuario
+
+from math import pi
+
+radio=float(input('Ingrese el area del circulo: '))
+area = pi* radio**2
+print()
+print('El area del circulo es: {}'.format(area))
+
+
+
